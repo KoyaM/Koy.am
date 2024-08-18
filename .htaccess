@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{http_host} ^koy.am
+RewriteRule ^(.*) https://form.run/@koya [R=301,L]
